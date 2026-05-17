@@ -1,0 +1,1384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <title>PrimeEstate</title>
+
+    <meta name="title" content="PrimeEmpire">
+    <meta name="description" content="PrimeEstate is a realestate website developed by sgd">
+
+
+    <link rel="shortcut icon" href="./favicon.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0..1,0" />
+
+
+    
+     <link rel="stylesheet" href="style.css">
+
+
+    <script src="script.js" defer></script>
+
+
+
+
+
+
+</head>
+
+<body>
+
+
+
+    <header class="header" id="header">
+        <div class="box">
+            <a href="#" class="logo" style="margin-top: 20px;">
+                <img src="./assets/images/logo1.png" width="220" height="10" alt="PrimeEstate">
+            </a>
+
+            <nav class="navbar" id="navbar">
+                <ul class=" nav-menu">
+                    <li>
+                        <a href="#" class="navbar-link name-tags active">Home</a>
+
+                    </li>
+
+
+                    <li>
+                        <a href="#" class="navbar-link name-tags">Rent</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link name-tags">Sell</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#" class="navbar-link name-tags">Buy</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="navbar-link name-tags">About</a>
+                    </li>
+
+                </ul>
+
+
+                <div class="navbar-wrapper">
+                    <a href="#" class="btn-link name-tags">Login</a>
+
+                    <a class="btn btn-fill name-tags">Get Started</a>
+
+                </div>
+
+            </nav>
+
+            <button class="nav-toggle-btn icon-btn" arial-label="toggle navbar" id="navbar-toggle">
+                <span class="material-symbols-rounded open" aria-hidden="true">menu</span>
+                <span class="material-symbols-rounded close" aria-hidden="true">close</span>
+            </button>
+
+        </div>
+    </header>
+
+
+    <main>
+        <article>
+
+
+            <section class="hero">
+                <div class="box">
+                    <div class="top-area-content">
+
+
+                        <h1 class="hero-head top-area-heading" style="line-height: 58px;">Prime Estate gives You future
+                            and family</h1>
+
+                        <p class="para-descriptions top-title">
+                            Never compromise your peace so find a home not house
+                        </p>
+
+                        <form action="./" method="get" class="search-bar">
+
+
+
+                            <label class="search-box">
+                                <span class="name-tags label">Want to</span>
+
+                                <select name="want-to" class="search-item-selection listings">
+                                    <option value="buy" selected>Buy</option>
+                                    <option value="sell">Sell</option>
+                                    <option value="rent">Rent</option>
+
+
+                                </select>
+
+                                <span class="material-symbols-rounded" aria-hidden="true">real_estate_agent</span>
+
+
+
+                            </label>
+
+
+
+                            <label class="search-box">
+                                <span class="name-tags label">Property Type</span>
+
+                                <select name="property-type" id="" class="search-item-selection listings">
+                                    <option value="any" selected>Any</option>
+                                    <option value="houses">Houses</option>
+                                    <option value="apartments">Apartments</option>
+                                    <option value="villa">Villa</option>
+                                    <option value="townhome">Townhome</option>
+                                    <option value="bungalow">Bungalow</option>
+                                    <option value="Loft">Loft</option>
+
+                                </select>
+
+                                <span class="material-symbols-rounded" aria-hidden="true">gite</span>
+
+
+
+                            </label>
+
+
+                            <label class="search-box">
+                                <span class="name-tags label">Location</span>
+
+
+                                <input type="text" name="location" placeholder="Street, City, Zip..."
+                                    class="search-item-selection listings">
+
+                                <span class="material-symbols-rounded" aria-hidden="true">location_on</span>
+
+
+
+                            </label>
+
+                            <button type="submit" class="property-search">
+                                <span class="material-symbols-rounded" aria-hidden="true">search</span>
+
+                                <span class="name-tags">Search</span>
+                            </button>
+
+
+                        </form>
+
+
+                        <!-- 
+                    </div>
+                    change
+                    <img src="./assets/images/hero.png" width="816" height="659" role="presentation" alt=""
+                        class="hero-img">
+
+                    change
+                    <img src="./assets/images/hero-bg-img.png" width="1240" height="840" role="presentation"
+                        class="hero-bg-img">
+
+
+
+                </div>
+ -->
+
+
+                        <div class="theme-btn">
+                            <button id="theme">Switch the vibe</button>
+                        </div>
+
+            </section>
+
+
+
+
+
+            <section class="property-section" aria-labelledby="property-label">
+                <div class="box">
+
+                    <div class="head">
+                        <div>
+                            <h2 class="title property-title">Scroll down to find your own home</h2>
+
+                            <p class="property-subtitle para-descriptions">
+                                Prime Estate brings you carefully selected homes in prime locations with exceptional
+                                value
+                            </p>
+                        </div>
+
+
+                        <a href="#" class="btn btn-outline">
+                            <span class="name-tags"> Find Peace </span>
+
+                            <span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span>
+
+
+                        </a>
+
+
+                    </div>
+
+                    <div class="property-listings">
+
+                        <div class="listing-box">
+
+                            <div class="imgs-lists">
+
+
+
+
+                                <figure class="img-container">
+
+                                    <img src="./assets/images/Royal-Villa-property-1.jpg" width="585" height="390"
+                                        alt="Royal Villa" class="img">
+                                </figure>
+
+
+                                <span class="badge name-tags">New</span>
+
+                                <button class="icon-btn fav-btn" aria-label="add to favorite" class="fav-btn">
+                                    <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+
+                                </button>
+
+                            </div>
+
+                            <div class="imgs-lists-details">
+                                <span class="little-large">
+                                    $34.9 Million
+                                </span>
+
+                                <h3>
+                                    <a href="#" class="lists-naming listing-box-title">Royal Villa</a>
+
+                                </h3>
+
+
+                                <p class="descriptions">
+                                    An extraordinary royal-inspired mansion featuring timeless stone architecture, grand
+                                    illuminated interiors, and expansive luxury living designed for elite lifestyles.
+
+                                </p>
+
+                                <address class="listings listing-box-text">
+                                    Beverly Hills, California
+                                </address>
+
+                                <div class="house-details">
+
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                                        <span class="interior-items name-tags">10 Beds</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">bathtub</span>
+                                        <span class="interior-items name-tags">12 Baths</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">straighten</span>
+                                        <span class="interior-items name-tags">18,500 sqft </span>
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+
+
+
+
+
+                            </div>
+
+
+
+                        </div>
+
+
+                        <div class="listing-box">
+
+                            <div class="imgs-lists">
+
+                                <figure class="img-container">
+
+                                    <img src="./assets/images/Highland-Horizon-Estate-property-2.jpg" width="585"
+                                        height="390" alt="Highland Horizon Estate" class="img">
+                                </figure>
+
+
+
+
+                                <button class="icon-btn fav-btn" aria-label="add to favorite" class="fav-btn">
+                                    <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+
+                                </button>
+
+                            </div>
+
+                            <div class="imgs-lists-details">
+                                <span class="little-large">$18.5 Million</span>
+
+                                <h3>
+                                    <a href="#" class="lists-naming listing-box-title">Highland Horizon Estate</a>
+
+                                </h3>
+
+                                <p class="descriptions">
+                                    Perched on a peaceful hillside, this grand estate offers unmatched privacy, scenic
+                                    mountain views, expansive interiors, and luxurious stone-crafted architecture
+                                    designed for elite countryside living.
+                                </p>
+
+                                <address class="listings listing-box-text">
+                                    Aspen Hills, Colorado
+
+                                </address>
+
+                                <div class="house-details">
+
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                                        <span class="interior-items name-tags">7 Beds</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">bathtub</span>
+                                        <span class="interior-items name-tags">8 Baths</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">straighten</span>
+                                        <span class="interior-items name-tags">12,400 sqft </span>
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="listing-box">
+
+                            <div class="imgs-lists">
+
+
+                                <figure class="img-container">
+
+                                    <img src="./assets/images/Palm-Crest-Villa-property-3.jpg" width="585" height="390"
+                                        alt="TThe Palm Crest Villa" class="img">
+                                </figure>
+
+
+
+
+                                <button class="icon-btn fav-btn" aria-label="add to favorite" class="class=" fav-btn"">
+                                    <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+
+                                </button>
+
+                            </div>
+
+                            <div class="imgs-lists-details">
+                                <span class="little-large">$12.8 Million</span>
+
+                                <h3>
+                                    <a href="#" class="lists-naming listing-box-title">The Palm Crest Villa</a>
+
+                                </h3>
+
+
+
+                                <p class="descriptions">
+                                    A stunning Mediterranean-inspired villa surrounded by lush palms and private
+                                    gardens, featuring panoramic terraces, floor-to-ceiling glass windows, and
+                                    resort-style outdoor living spaces.
+                                </p>
+
+
+
+
+                                <address class="listings listing-box-text">
+                                    Malibu, California
+
+                                </address>
+
+                                <div class="house-details">
+
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                                        <span class="interior-items name-tags">6 Beds</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">bathtub</span>
+                                        <span class="interior-items name-tags">7 Baths</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">straighten</span>
+                                        <span class="interior-items name-tags">8,900 sqft </span>
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="listing-box">
+
+                            <div class="imgs-lists">
+
+
+                                <figure class="img-container">
+
+                                    <img src="./assets/images/sunset-cottage-property-4.jpg" width="585" height="390"
+                                        alt="Sunset Lane Cottage" class="img">
+                                </figure>
+
+
+
+
+                                <button class="icon-btn fav-btn" aria-label="add to favorite" class="fav-btn">
+                                    <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+
+                                </button>
+
+                            </div>
+
+                            <div class="imgs-lists-details">
+                                <span class="little-large">$1.2 Million</span>
+
+                                <h3>
+                                    <a href="#" class="lists-naming listing-box-title">Sunset Lane Cottage</a>
+
+                                </h3>
+
+                                <p class="descriptions">A warm and welcoming family cottage located in a quiet
+                                    neighborhood, featuring cozy
+                                    interiors, charming outdoor pathways, and breathtaking sunset views every evening.
+                                </p>
+
+                                <address class="listings listing-box-text">
+                                    Auckland, New Zealand
+
+                                </address>
+
+                                <div class="house-details">
+
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                                        <span class="interior-items name-tags">3 Bed</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">bathtub</span>
+                                        <span class="interior-items name-tags">2 Bath</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">straighten</span>
+                                        <span class="interior-items name-tags">2,100 sqft </span>
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="listing-box">
+
+                            <div class="imgs-lists">
+
+
+                                <figure class="img-container">
+
+                                    <img src="./assets/images/Golden-Cliff-Manor-property-5.jpg"
+                                        alt="Golden Cliff Manor" class="img">
+                                </figure>
+
+
+
+
+                                <button class="icon-btn fav-btn" aria-label="add to favorite" class="fav-btn">
+                                    <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+
+                                </button>
+
+                            </div>
+
+                            <div class="imgs-lists-details">
+                                <span class="little-large">$10.6 Milliom</span>
+
+                                <h3>
+                                    <a href="#" class="lists-naming listing-box-title">Golden Cliff Manor</a>
+
+                                </h3>
+
+
+                                <p class="descriptions">Built on elevated coastal terrain, this sophisticated manor
+                                    showcases premium
+                                    finishes, private terraces, scenic ocean views, and timeless luxury inspired by
+                                    Mediterranean elegance.</p>
+
+
+
+                                <address class="listings listing-box-text">
+                                    Santorini Heights, Greece
+
+                                </address>
+
+                                <div class="house-details">
+
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                                        <span class="interior-items name-tags">5 Bed</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">bathtub</span>
+                                        <span class="interior-items name-tags">6 Bath</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">straighten</span>
+                                        <span class="interior-items name-tags">7,850 sqft </span>
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="listing-box">
+
+                            <div class="imgs-lists">
+
+
+                                <figure class="img-container">
+
+                                    <img src="./assets/images/student-heaven-apartment-property-6.jpg" width="585"
+                                        height="390" alt="Nordic Pearl Apartment" class="img">
+                                </figure>
+
+
+
+
+                                <button class="icon-btn fav-btn" aria-label="add to favorite" class="fav-btn">
+                                    <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+
+                                </button>
+
+                            </div>
+
+                            <div class="imgs-lists-details">
+                                <span class="little-large">$105.55</span>
+
+                                <h3>
+                                    <a href="#" class="lists-naming listing-box-title">Nordic Pearl Apartment</a>
+
+                                </h3>
+
+                                <p class="descriptions">A sleek Scandinavian-inspired apartment featuring minimalist
+                                    interiors, warm wooden
+                                    flooring, and elegant city-view living spaces designed for modern comfort.</p>
+
+                                <address class="listings listing-box-text">
+                                    Copenhagen, Denmark
+                                </address>
+
+                                <div class="house-details">
+
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                                        <span class="interior-items name-tags">2 Bed</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">bathtub</span>
+                                        <span class="interior-items name-tags">2 Bath</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">straighten</span>
+                                        <span class="interior-items name-tags">1,350 sqft </span>
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+                        <div class="listing-box">
+
+                            <div class="imgs-lists">
+
+
+                                <figure class="img-container">
+
+                                    <img src="./assets/images/Azure-Bay-Residence-property-7.jpg" width="585"
+                                        height="390" alt="Azure Bay Residence" class="img">
+                                </figure>
+
+
+
+                                <button class="icon-btn fav-btn" aria-label="add to favorite" class="fav-btn">
+                                    <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+
+                                </button>
+
+                            </div>
+
+                            <div class="imgs-lists-details">
+                                <span class="little-large">$7.9 Million</span>
+
+                                <h3>
+                                    <a href="#" class="lists-naming listing-box-title">Azure Bay Residence</a>
+
+                                </h3>
+
+
+
+                                <p class="descriptions">A modern coastal residence with elegant white architecture, a
+                                    luxury swimming pool,
+                                    spacious open-plan living areas, and a perfect blend of indoor and outdoor comfort.
+                                </p>
+
+
+
+                                <address class="listings listing-box-text">
+                                    Gold Coast, Australia
+                                </address>
+
+                                <div class="house-details">
+
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                                        <span class="interior-items name-tags">5 Bed</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">bathtub</span>
+                                        <span class="interior-items name-tags">5 Bath</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">straighten</span>
+                                        <span class="interior-items name-tags">6,700 sqft </span>
+                                    </div>
+
+
+
+
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+
+
+
+
+                        <div class="listing-box">
+
+                            <div class="imgs-lists">
+
+
+                                <figure class="img-container">
+
+                                    <img src="./assets/images/Ocean-Crest-Modern-Villa-property-8.jpg" width="585"
+                                        height="390" alt="Ocean Crest Modern Villa" class="img">
+                                </figure>
+
+
+
+
+                                <button class="icon-btn fav-btn" aria-label="add to favorite" clss="class=" fav-btn"">
+                                    <span class="material-symbols-rounded" aria-hidden="true">favorite</span>
+
+                                </button>
+
+                            </div>
+
+                            <div class="imgs-lists-details">
+                                <span class="little-large">$9.4 Million</span>
+
+                                <h3>
+                                    <a href="#" class="lists-naming listing-box-title">Ocean Crest Modern Villa</a>
+
+                                </h3>
+
+
+                                <p class="descriptions">This minimalist oceanfront villa combines sleek modern design
+                                    with breathtaking sea
+                                    views, offering tranquil luxury, sunlit interiors, and seamless beachside living.
+                                </p>
+
+                                <address class="listings listing-box-text">
+
+                                    Laguna Beach, California
+                                </address>
+
+                                <div class="house-details">
+
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon" aria-hidden="true">bed</span>
+                                        <span class="interior-items name-tags">4 Bed</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">bathtub</span>
+                                        <span class="interior-items name-tags">5 Bath</span>
+                                    </div>
+
+                                    <div class="house-items">
+                                        <span class="material-symbols-rounded meta-icon"
+                                            aria-hidden="true">straighten</span>
+                                        <span class="interior-items name-tags">5,200 sq ft</span>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+
+            <section class="service-section" aria-labelledby="feature-level">
+                <div class="box">
+
+                    <figure class="service-imgs">
+                        <img src="./assets/images/smart-home-1.jpg" width="1020" height="690" loading="lazy"
+                            alt="smart home" class="img">
+                    </figure>
+
+                    <div class="service-details">
+                        <h2 class="second-headline" id="service-heading">
+                            We Specialize In Quality Home Renovations
+                        </h2>
+
+                        <p class="para-descriptions service-description">
+                            Looking to renovate your home to reflect your style and personality? Look no further than
+                            our team of experts who specialize in quality home renovations to transform your space into
+                            a dream home you’ll love. From design to execution.
+                        </p>
+
+
+                        <ul class="service-lists">
+
+
+                            <li class="servicesProvided">
+                                <span class="material-symbols-rounded feature-icon"
+                                    aria-hidden="true">check_circle</span>
+
+                                <span class="listings">Smart Home</span>
+                            </li>
+
+
+                            <li class="servicesProvided">
+                                <span class="material-symbols-rounded feature-icon"
+                                    aria-hidden="true">check_circle</span>
+
+                                <span class="listings">Beautiful Scene Around</span>
+                            </li>
+
+
+                            <li class="servicesProvided">
+                                <span class="material-symbols-rounded feature-icon"
+                                    aria-hidden="true">check_circle</span>
+
+                                <span class="listings">Exceptional lifestyle</span>
+                            </li>
+
+                            <li class="servicesProvided">
+                                <span class="material-symbols-rounded -icon" aria-hidden="true">check_circle</span>
+
+                                <span class="listings">Complete 24/7 Security</span>
+                            </li>
+
+
+
+                        </ul>
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <section class="service-section serviceListings-2" aria-labelledby="feature-level-2">
+                <div class="box">
+
+                    <figure class="service-imgs">
+                        <img src="./assets/images/historic-house-2.jpg" width="1020" height="690" loading="lazy"
+                            alt="feature banner" class="img">
+                    </figure>
+
+                    <div class="service-details">
+                        <h2 class="second-headline" id="service-heading-2">
+
+                            We Preserve The Beauty Of Historic Homes
+                        </h2>
+
+                        <p class="para-descriptions service-description">
+                            Looking to restore a timeless property while keeping its original charm alive? Our team
+                            specializes in historic home renovations that blend classic architecture with modern
+                            comfort. From careful restoration to elegant redesigns, we transform heritage houses into
+                            luxurious living spaces built to last for generations.
+                        </p>
+
+
+                        <ul class="service-lists">
+
+
+
+
+                            <li class="servicesProvided">
+                                <span class="material-symbols-rounded feature-icon"
+                                    aria-hidden="true">check_circle</span>
+
+                                <span class="listings">Historic Architecture Restoration</span>
+                            </li>
+
+
+                            <li class="servicesProvided">
+                                <span class="material-symbols-rounded feature-icon"
+                                    aria-hidden="true">check_circle</span>
+
+                                <span class="listings">Vintage Interior Preservation</span>
+                            </li>
+
+
+                            <li class="servicesProvided">
+                                <span class="material-symbols-rounded feature-icon"
+                                    aria-hidden="true">check_circle</span>
+
+                                <span class="listings">Timeless Luxury Design</span>
+                            </li>
+
+                            <li class="servicesProvided">
+                                <span class="material-symbols-rounded feature-icon"
+                                    aria-hidden="true">check_circle</span>
+
+                                <span class="listings">Beautiful Heritage Surroundings</span>
+                            </li>
+
+
+
+                            <li class="servicesProvided">
+                                <span class="material-symbols-rounded feature-icon"
+                                    aria-hidden="true">check_circle</span>
+
+                                <span class="listings">Complete 24/7 Security</span>
+                            </li>
+
+
+
+                        </ul>
+
+
+
+
+
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+
+
+
+
+            <section class="video-section">
+                <div class="box">
+
+                    <div class="video">
+                        <!-- <img src="./assets/images/video-card.jpg" class="video"> -->
+                        <button class="play-btn" aria-label="play video">
+                            <span class="material-symbols-rounded" aria-hidden="true">play_arrow</span>
+                        </button>
+                    </div>
+
+                </div>
+            </section>
+
+
+
+            <section class="story-section" style="margin-bottom: 10px;">
+                <div class=box>
+                    <div class="head">
+                        <div>
+                            <p class="story-subtitle title-medium"> our customers </p>
+
+                            <h2 class="title second-headline">We Help 1000+ Family Find Their True Home</h2>
+
+                            <ul class="customers-list">
+
+
+                                <li class="customer">
+                                    <img src="./assets/images/avatar-1.jpg" width="120" height="80" loading="lazy"
+                                        alt="John smith" class="img">
+                                </li>
+
+
+
+                                <li class="customer">
+                                    <img src="./assets/images/avatar-2.jpg" width="120" height="80" loading="lazy"
+                                        alt="Jane smith" class="img">
+                                </li>
+
+
+                                <li class="customer">
+                                    <img src="./assets/images/avatar-3.jpg" width="120" height="80" loading="lazy"
+                                        alt="John smith" class="img">
+                                </li>
+
+
+
+                                <li class="customer">
+                                    <img src="./assets/images/avatar-4.jpg" width="120" height="80" loading="lazy"
+                                        alt="Jane smith" class="img">
+
+
+                                    <div class="overlay-content">
+                                        <span class="name-tags">99+</span>
+
+                                    </div>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+                        <a href="#" class="btn btn-outline">
+                            <span class="name-tags">View All Stories</span>
+
+                            <span class="material-symbols-rounded" aria-hidden="true">arrow_outward</span>
+                        </a>
+
+
+                    </div>
+
+
+                    <ul class="customer-list">
+                        <li class="story-list" style="background-image: url('./assets/images/story-1.jpg');">
+                            <a href="#" class="overlay-content">
+                                <div>
+                                    <h3 class="lists-naming">Chris Traeger</h3>
+
+                                    <div class="ratings">
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                        <data class="lists-naming rating-text" value="5">5.0</data>
+                                    </div>
+                                </div>
+
+                                <figure class="customer-img">
+                                    <img src="./assets/images/story-avatar-1.jpg" width="56" height="56" loading="lazy"
+                                        alt="Chris Tragger" class="img">
+                                </figure>
+                            </a>
+                        </li>
+
+
+
+
+                        <li class="story-list" style="background-image: url('./assets/images/story-2.jpg');">
+                            <a href="#" class="overlay-content">
+                                <div>
+                                    <h3 class="lists-naming">Duke Silver</h3>
+
+                                    <div class="ratings">
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                        <data class="lists-naming rating-text" value="5">5.0</data>
+                                    </div>
+                                </div>
+
+                                <figure class="customer-img">
+                                    <img src="./assets/images/story-avatar-2.jpg" width="56" height="56" loading="lazy"
+                                        alt="Duke Silver" class="img">
+                                </figure>
+                            </a>
+                        </li>
+
+
+
+                        <li class="story-list" style="background-image: url('./assets/images/story-3.jpg');">
+                            <a href="#" class="overlay-content">
+                                <div>
+                                    <h3 class="lists-naming">Tsukasa Aoi</h3>
+
+                                    <div class="ratings">
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                        <data class="lists-naming rating-text" value="5">5.0</data>
+                                    </div>
+                                </div>
+
+                                <figure class="customer-img">
+                                    <img src="./assets/images/story-avatar-3.jpg" width="56" height="56" loading="lazy"
+                                        alt="Tsukasa Aoi" class="img">
+                                </figure>
+                            </a>
+                        </li>
+
+
+                        <li class="story-list" style="background-image: url('./assets/images/story-4.jpg');">
+                            <a href="#" class="overlay-content">
+                                <div>
+                                    <h3 class="lists-naming">Freida Varnes</h3>
+
+                                    <div class="ratings">
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                        <data class="lists-naming rating-text" value="5">5.0</data>
+                                    </div>
+                                </div>
+
+                                <figure class="customer-img">
+                                    <img src="./assets/images/story-avatar-4.jpg" width="56" height="56" loading="lazy"
+                                        alt="Freida Varnes" class="img">
+                                </figure>
+                            </a>
+                        </li>
+
+
+
+
+
+                        <li class="story-list" style="background-image: url('./assets/images/story-5.jpg');">
+                            <a href="#" class="overlay-content">
+                                <div>
+                                    <h3 class="lists-naming">Carl Lorthner</h3>
+
+                                    <div class="ratings">
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                        <data class="lists-naming rating-text" value="5">5.0</data>
+                                    </div>
+                                </div>
+
+                                <figure class="customer-img">
+                                    <img src="./assets/images/story-avatar-5.jpg" width="56" height="56" loading="lazy"
+                                        alt="Carl Lorthner" class="img">
+                                </figure>
+                            </a>
+                        </li>
+
+
+
+
+                        <li class="story-list" style="background-image: url('./assets/images/student-apartment.jpg');">
+                            <a href="#" class="overlay-content">
+                                <div>
+                                    <h3 class="lists-naming">Marci Senter</h3>
+
+                                    <div class="ratings">
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+                                        <span class="material-symbols-rounded" aria-hidden="true">star</span>
+
+                                        <data class="lists-naming rating-text" value="5">5.0</data>
+                                    </div>
+                                </div>
+
+                                <figure class="customer-img">
+                                    <img src="./assets/images/student-apartment-pic.jpg" width="56" height="56"
+                                        loading="lazy" alt="Marci Senter" class="img">
+                                </figure>
+                            </a>
+                        </li>
+
+
+
+
+
+
+
+                    </ul>
+
+
+                </div>
+            </section>
+
+
+        </article>
+    </main>
+
+
+
+
+
+
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="box">
+                <div class="footer-title">
+                    <a href="#" class="logo">
+                        <img src="./assets/images/logo1.png" width="30%" alt="PrimeEstate">
+                    </a>
+
+                </div>
+
+                <nav class="quick-links" aria-labelledby="nav-label-1">
+                    <p class="lists-naming quick-link-title" id="nav-label-1">Quick link</p>
+
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#" class="listings quick-link">
+                                Home
+                            </a>
+
+
+                            <a href="#" class="listings quick-link">
+                                Buy
+                            </a>
+
+
+
+                            <a href="#" class="listings quick-link">
+                                Sell
+                            </a>
+
+
+                            <a href="#" class="listings quick-link">
+                                Rent
+                            </a>
+
+
+
+
+
+
+
+                        </li>
+                    </ul>
+
+
+                </nav>
+
+
+                <nav class="quick-links" aria-labelledby="nav-label-2">
+                    <p class="lists-naming quick-link-title" id="nav-label-2">Support</p>
+
+                    <ul class="footer-list">
+                        <li>
+                            <a href="#" class="listings quick-link">
+                                About us
+                            </a>
+
+
+                            <a href="#" class="listings quick-link">
+                                Contact us
+                            </a>
+
+
+
+                            <a href="#" class="listings quick-link">
+                                Privacy Policy
+                            </a>
+
+
+                            <a href="#" class="listings quick-link">
+                                Terms & Conditions
+                            </a>
+
+
+
+
+
+
+
+                        </li>
+                    </ul>
+
+
+                </nav>
+
+
+                <nav class="quick-links" aria-labelledby="nav-label-3">
+                    <p class="lists-naming quick-link-title" id="nav-label-3">Get in touch</p>
+
+                    <ul class="footer-list">
+
+                        <li>
+                            <a href="#" class="listings quick-link">
+                                hello@PrimeEstate.com
+                            </a>
+                        </li>
+
+                        <li>
+                            <address href="#" class=" address listings">
+                                4140 Parker Rd. Allentown, New Mexico 31134
+                            </address>
+                        </li>
+
+
+
+
+                        <li>
+                            <ul class="social links">
+
+                                <li>
+                                    <a href="#" class="social-links">
+                                        <img src="./assets/images/facebook.svg" alt="facebook">
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="social-links">
+                                        <img src="./assets/images/twitter.svg" alt="twitter">
+                                    </a>
+                                </li>
+
+
+                                <li>
+                                    <a href="#" class="social-links">
+                                        <img src="./assets/images/insta.svg" alt="twitter">
+                                    </a>
+                                </li>
+
+
+
+
+
+                            </ul>
+                        </li>
+                    </ul>
+
+
+                </nav>
+
+
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="box">
+                <p class="copyright listings">
+                    © 2026 PrimeEmpire. All Rights Reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+</body>
+
+</html>
