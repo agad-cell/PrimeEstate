@@ -39,6 +39,12 @@ Overall the webpages includes property listinsg, services provided, a header, a 
 <img width="431" height="320" alt="image" src="https://github.com/user-attachments/assets/4c8495bb-9c8d-403c-a191-7a10783bce1a" />
 
 
+**webpage imgs** 
+
+
+<img width="162" height="352" alt="image" src="https://github.com/user-attachments/assets/4a17c15b-b60a-4f4f-860b-85e6cadddb2f" />
+
+
 
 
 
